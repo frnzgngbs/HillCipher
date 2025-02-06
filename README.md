@@ -1,7 +1,3 @@
-Here's a **README** file for your **Hill Cipher File Encryption Program**:  
-
----
-
 ## **Hill Cipher File Encryption**
 This is a **C# WinForms application** that uses the **Hill Cipher algorithm** to encrypt and decrypt **any file type**.  
 The program supports **direct file modification**, meaning encrypted files are overwritten in place.
@@ -74,5 +70,3 @@ The program supports **direct file modification**, meaning encrypted files are o
 Developed by **Mark Yuri P Geagonia**  
 
 ---
-
-Let me know if you need modifications! 🚀
