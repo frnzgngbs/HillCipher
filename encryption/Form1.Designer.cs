@@ -30,8 +30,8 @@
         {
             openFileDialog1 = new OpenFileDialog();
             openFileDialog2 = new OpenFileDialog();
-            button1 = new Button();
-            button2 = new Button();
+            encryptButton = new Button();
+            decryptButton = new Button();
             SuspendLayout();
             // 
             // openFileDialog1
@@ -42,33 +42,33 @@
             // 
             openFileDialog2.FileName = "openFileDialog2";
             // 
-            // button1
+            // encryptButton
             // 
-            button1.Location = new Point(261, 209);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Encrypt";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
+            encryptButton.Location = new Point(94, 140);
+            encryptButton.Name = "encryptButton";
+            encryptButton.Size = new Size(83, 32);
+            encryptButton.TabIndex = 0;
+            encryptButton.Text = "Encrypt";
+            encryptButton.UseVisualStyleBackColor = true;
+            encryptButton.Click += button1_Click_1;
             // 
-            // button2
+            // decryptButton
             // 
-            button2.Location = new Point(472, 209);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "Decrypt";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            decryptButton.Location = new Point(416, 143);
+            decryptButton.Name = "decryptButton";
+            decryptButton.Size = new Size(85, 29);
+            decryptButton.TabIndex = 1;
+            decryptButton.Text = "Decrypt";
+            decryptButton.UseVisualStyleBackColor = true;
+            decryptButton.Click += button2_Click_1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(624, 369);
+            Controls.Add(decryptButton);
+            Controls.Add(encryptButton);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -78,7 +78,7 @@
 
         private OpenFileDialog openFileDialog1;
         private OpenFileDialog openFileDialog2;
-        private Button button1;
-        private Button button2;
+        private Button encryptButton;
+        private Button decryptButton;
     }
 }
